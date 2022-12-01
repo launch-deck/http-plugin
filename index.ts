@@ -53,7 +53,7 @@ const HttpPlugin: Plugin = {
                             { name: 'Patch', data: 'patch' },
                             { name: 'Delete', data: 'delete' },
                             { name: 'Head', data: 'head' },
-                            { name: 'Options', data: 'options' },
+                            { name: 'Options', data: 'options' }
                         ]
                     },
                     url: { name: 'Url', type: 'value' },
