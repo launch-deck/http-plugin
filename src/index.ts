@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { Command, Plugin } from "@launch-deck/common";
 
-const HttpPlugin: Plugin = {
+module.exports = {
 
     async handleCommand(command: Command): Promise<void> {
 
@@ -65,6 +65,4 @@ const HttpPlugin: Plugin = {
         return Promise.resolve(commands);
     }
 
-}
-
-export default HttpPlugin;
+} as Plugin;
